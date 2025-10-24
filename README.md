@@ -40,10 +40,8 @@ O foco é compreender o funcionamento de **nós (nodes)** e **referências (pont
 ---
 
 ##  Requisitos de Implementação
-Cada estrutura foi construída **manualmente**, utilizando:
+Cada estrutura foi construída utilizando:
 - Classes próprias (`Node`, `Lista`, `Main`, etc.);
 - Ponteiros (referências como `inicio`, `proximo`, `anterior`, `fim`);
 
 ---
-   ```bash
-   git clone https://github.com/dvsxx11/Listas-encadeadas.git
