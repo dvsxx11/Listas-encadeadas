@@ -12,11 +12,11 @@ O foco é compreender o funcionamento de **nós (nodes)** e **referências (pont
 ##  Estruturas Implementadas
 
 
-1. Lista Encadeada Simples (`ListaSimples`)
+### 1. Lista Encadeada Simples (`ListaSimples`)
 A **lista encadeada simples** é formada por uma sequência de nós, onde **cada nó armazena um valor e uma referência para o próximo**.  
 Ela permite percorrer os elementos em **apenas um sentido** — do primeiro até o último.
 
-### Operações implementadas:
+Operações implementadas:
 - **Inserir no início**: adiciona um novo nó no começo da lista.  
 - **Inserir no fim**: percorre até o último nó e adiciona o novo elemento.  
 - **Inserir no meio**: insere um nó em uma posição específica.  
@@ -24,25 +24,25 @@ Ela permite percorrer os elementos em **apenas um sentido** — do primeiro até
 - **Buscar elemento**: verifica se um valor está presente.  
 - **Listar elementos**: exibe todos os nós armazenados.
 
-2. Lista Duplamente Encadeada (`ListaDupla`)
+### 2. Lista Duplamente Encadeada (`ListaDupla`)
 A **lista duplamente encadeada** possui nós com **duas referências**:
 - `anterior` → aponta para o nó anterior;
 - `proximo` → aponta para o próximo nó.
 
 Isso permite **navegação nos dois sentidos**, facilitando operações de remoção e inserção em qualquer ponto.
 
-### Operações implementadas:
+Operações implementadas:
 - Inserir no início, meio ou fim;
 - Remover elemento;
 - Buscar elemento;
 - Listar elementos de forma **direta e reversa**.
 
 
-3. Lista Encadeada Circular (`ListaCircular`)
+### 3. Lista Encadeada Circular (`ListaCircular`)
 A **lista circular** é semelhante à lista simples, com a diferença de que **o último nó aponta novamente para o primeiro**, formando um ciclo.  
 Isso permite percorrer a lista de maneira contínua, sem precisar reiniciar manualmente.
 
-###  Operações implementadas:
+Operações implementadas:
 - Inserir elementos (no início, meio ou fim);
 - Remover elemento;
 - Buscar elemento;
